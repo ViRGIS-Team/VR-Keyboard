@@ -1,0 +1,14 @@
+{
+    "name": "com.virgis.vr-keyboard",
+    "version": "0.9.0",
+    "displayName": "Simple VR Keyboard",
+    "description": "Unity Keyboard for use in VR",
+    "dependencies": {
+      "com.unity.xr.interaction.toolkit": "0.9.0"
+   },
+    "author": {
+        "name": "Virgis Team",
+        "email": "info@virgis.org",
+        "url": "https://www.virgis.org"
+      }
+  }
