@@ -15,7 +15,7 @@ alt="Video of VR Keyboard" width="480" height="360" border="10" /></a>
 
 VR keyboard can be installed as a UPM package - either directly from this repository or from [OpenUPM](https://openupm.com/packages/com.virgis.vr-keyboard/).
 
-There is a sample project that is used for testing inluded as zip file in [the release package](https://github.com/ViRGIS-Team/VR-Keyboard/releases/tag/0.9.0)
+There is a sample project, also used for testing, inluded as a zip file in [the release package](https://github.com/ViRGIS-Team/VR-Keyboard/releases/tag/0.9.0)
 
 ## Dependencies
 
