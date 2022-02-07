@@ -29,12 +29,12 @@ namespace VrKeyboard
 
     public class KeyboardDirectInteractor : KeyboardInteractor
     {
-        private Bounds m_bounds;
+        private Collider m_collider;
 
         void Start()
         {
             base.Start();
-            m_bounds = GetComponent<Collider>().bounds;
+            m_collider = GetComponent<Collider>();
         }
 
         public override void UpdateUIModel(ref TrackedDeviceModel model)
@@ -43,7 +43,11 @@ namespace VrKeyboard
             if (!isActiveAndEnabled)
                 return;
 
-            model.position = transform.TransformPoint(0, -.5f, 0);
+            Bounds bounds = m_collider.bounds;
+            Vector3 center = bounds.center;
+            Vector3 extents = bounds.extents;
+ 
+            model.position = center;
             model.orientation = transform.rotation;
 
             model.select = isUISelectActive;
@@ -51,9 +55,9 @@ namespace VrKeyboard
             List<Vector3> raycastPoints = model.raycastPoints;
             raycastPoints.Clear();
 
-            Vector3 center = m_bounds.center;
-            raycastPoints.Add(transform.TransformPoint(center.x, center.y, center.z - m_bounds.extents.z));
-            raycastPoints.Add(transform.TransformPoint(center.x, center.y, center.z + m_bounds.extents.z));
+
+            raycastPoints.Add(new Vector3(center.x, center.y, center.z - extents.z));
+            raycastPoints.Add(new Vector3(center.x, center.y, center.z + extents.z));
         }
     }
 }
