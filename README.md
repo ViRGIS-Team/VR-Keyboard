@@ -1,4 +1,6 @@
-# VR Keyboard
+# VR Keyboard 
+
+[![openupm](https://img.shields.io/npm/v/com.virgis.vr-keyboard?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.virgis.vr-keyboard/)
  
  VR Keyboard is an Out of the Box World Space VR / XR Keyboard for Unity.
  
