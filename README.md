@@ -1,6 +1,6 @@
 # VR Keyboard
  
- VR Kkeybpard is an Out of the Box World Space VR / XR Keyboard for Unity.
+ VR Keyboard is an Out of the Box World Space VR / XR Keyboard for Unity.
  
  The background is that I was looking for a simple solution to adding a keyboard into an application - to allow passwords to be entered. When I could not find one I created one.
  
