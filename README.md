@@ -58,3 +58,9 @@ However ...
 Out of the Box, the only XRIT Interactors that interact with UGUI are the Ray Interactors. This is not ideal. As shown in the video above - the more natural way to use a keyboard is a Direct Interactor (i.e. a contained shape that can be used to touch the keyboard) especially in a "Xylophone action".
 
 To allow this - the package includes an extended version of Direct Interactor - `KeyboardDirectInteractor.cs` and a Simple Interactor Prefab. This is not ideal but it creates a Ray from the extent of the Z axis of the collider component on the Interactor. To make this work - you should make sure that the long axis of the collider is the Z axis.
+
+## A Note on i18n and localisation
+
+At the moment, this component makes no attempt to provide i18n or localisation, whether that is the layout of keyboard or the characters provided.
+
+Please feel free to submit PRs with solutions.
