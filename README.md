@@ -32,7 +32,7 @@ These packages need to be installed and functional and set up to allow XRIT to i
 
 The package includes a Keyboard prefab. Include this in your scene. The Keyboard includes a Canvas GameObject - the Canvas component on this GameObject requires a link to the active camera in the scene.
 
-The Keyboard component creates the following events:
+The Keyboard component publishes the following events:
 
 - **Key Pressed** triggers whenever a key is pressed. The payload is the character pressed,
 - **Enter Pressed** triggers whenever `Enter` is pressed,
