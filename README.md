@@ -26,7 +26,7 @@ The package is build upon the following (which are included as dependencies in t
 
 The buttons are build using Unity UI and the XRIT is needed to create Interactors. This is discussed in more detail below.
 
-These packages need to be installed and functional and set up to allow XRIT to interact with the UI system as described [in the documenation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html#ui-interaction-setup) - particularly the EventSystem since the UI canvas is already included in the keyboard.
+These packages need to be installed and functional and set up to allow XRIT to interact with the UI system as described [in the documenation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/ui-setup.html) - particularly the EventSystem since the UI canvas is already included in the keyboard.
 
 ## Usage
 
