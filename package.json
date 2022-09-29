@@ -4,7 +4,7 @@
     "displayName": "Simple VR Keyboard",
     "description": "Unity Keyboard for use in VR",
     "dependencies": {
-      "com.unity.xr.interaction.toolkit": "2.0.1"
+      "com.unity.xr.interaction.toolkit": "2.0.3"
    },
     "author": {
         "name": "Virgis Team",
