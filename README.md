@@ -9,13 +9,17 @@
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=ijGji97zGOw
 " target="_blank"><img src="http://img.youtube.com/vi/ijGji97zGOw/0.jpg" 
 alt="Video of VR Keyboard" width="480" height="360" border="10" /></a>
+
+## Versions
+
+Note - Version 1.0.0 is dependent on XR IT version 3.0.0 or later because of the breaking changes introduced in XR IT 3.0.0.
  
 
 ## Installation
 
 VR Keyboard can be installed as a UPM package - either directly from this repository or from [OpenUPM](https://openupm.com/packages/com.virgis.vr-keyboard/).
 
-There is a sample project, also used for testing, included as a zip file in [the release package](https://github.com/ViRGIS-Team/VR-Keyboard/releases/tag/0.9.0)
+There is a sample project, also used for testing, included as a zip file in [the release package](https://github.com/ViRGIS-Team/VR-Keyboard/releases/tag/1.0.0)
 
 ## Dependencies
 
