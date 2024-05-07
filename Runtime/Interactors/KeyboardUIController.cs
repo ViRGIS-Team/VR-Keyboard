@@ -51,10 +51,10 @@ namespace VrKeyboard
         /// <inheritdoc />
         protected override void UpdateController()
         {
-            GetControllerState(out XRControllerState controller);
+            XRControllerState controller = currentControllerState;
             controller.position = transform.localPosition;
             controller.rotation = transform.localRotation;
-            SetControllerState(controller);
+            currentControllerState = controller;
             base.UpdateController();
         }
 

@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Interaction.Toolkit.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.XR;
@@ -29,7 +29,7 @@ using UnityEngine.XR;
 namespace VrKeyboard
 {
 
-    public class KeyboardInteractor : XRDirectInteractor, IUIInteractor
+    public class KeyboardInteractor : UnityEngine.XR.Interaction.Toolkit.Interactors.XRDirectInteractor, IUIInteractor
     {
         XRUIInputModule m_InputModule;
         XRUIInputModule m_RegisteredInputModule;
