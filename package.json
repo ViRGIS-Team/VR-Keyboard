@@ -1,6 +1,6 @@
 {
     "name": "com.virgis.vr-keyboard",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Simple VR Keyboard",
     "description": "Unity Keyboard for use in VR",
     "dependencies": {
